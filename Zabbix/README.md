@@ -9,6 +9,14 @@ Cette activité consiste à configurer Zabbix pour la supervision des systèmes 
 ## 1. Prérequis
 
 - Machine virtuelle hébergeant le serveur Zabbix.
+- Installer zabbix sur ubuntu 22.04
+https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=server_frontend_agent&db=mysql&ws=apache 
+- Installer mariadb 
+https://shape.host/resources/comment-installer-la-derniere-version-de-mariadb-sur-ubuntu-22-04#:~:text=MariaDB%20n'est%20pas%20inclus,de%20MariaDB%20%C3%A0%20votre%20syst%C3%A8me.&text=Remplacez%2010.6%20par%20la%20version%20sp%C3%A9cifique%20de%20MariaDB%20que%20vous%20souhaitez%20installer. 
+- Install Zabbix agent pour toutes les machines:
+https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=agent&db=&ws=
+
+
 - Zabbix Agent installé sur les hôtes supervisés :
   - **vm-ansible** : 192.168.8.130
   - **node-001** : 192.168.8.131

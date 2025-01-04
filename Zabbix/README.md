@@ -143,7 +143,6 @@ Description : Vue d’ensemble des métriques clés et des problèmes signalés 
 ### Capture 2 : Configuration de l’hôte Node-001
 ![Configuration hôte Node-001](file-SiegUJFhhB9t2dbeVtA5zz)
 Description : Configuration des paramètres d’hôte pour Node-001 dans l’interface Zabbix.
-![alt text](image.png)
 
 ### Capture 3 : Déclencheur HTTP indisponible
 ![Déclencheur HTTP indisponible](file-9gRZNKBLxRjEU1MLBNozbL)

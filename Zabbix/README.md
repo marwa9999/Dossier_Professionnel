@@ -13,7 +13,7 @@ Cette activité consiste à configurer Zabbix pour la supervision des systèmes 
   - **vm-ansible** : 192.168.8.130
   - **node-001** : 192.168.8.131
   - **node-002** : 192.168.8.135
-  - **Docker** : 192.168.8.136
+  - **Docker** : 192.168.8.138
 
 ---
 

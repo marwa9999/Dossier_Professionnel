@@ -144,18 +144,21 @@ services:
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture1transfert-de-dossier-Eflyer-via-Filezilla.png
 
 ### Capture 2 : Interface utilisateur d'Odoo
-
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture2-Configuration-Docker-Compose-pour%20eFlyer%20.png
 
 ### Capture 3 : Fichier `docker-compose.yml` de Axelor
-
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture3-Site-eFlyer-d%C3%A9ploy%C3%A9.png
 
 ### Capture 4 : Interface utilisateur de Axelor
-
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture4%20-Configuration-Docker-Compose-pour-Axelor.png
 
 ### Capture 5 : Fichier `docker-compose.yml` de Eflyer
-
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture5-Site-Axelor-d%C3%A9ploy%C3%A9.png
 
 ### Capture 6 : Interface utilisateur de Eflyer
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture6-Configuration-Docker-Compose-pour-Odoo.png
 
+### Capture 7 : Interface Odoo déployée
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture7-Interface-Odoo-d%C3%A9ploy%C3%A9e.png
 
 ---

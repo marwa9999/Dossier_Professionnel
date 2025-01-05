@@ -137,12 +137,19 @@ ansible all -m ping
 ## 5. Captures d’écran
 
 ### Capture 1 : Exécution du Playbook sur vm-ansible
-![Exécution du Playbook](file-F3zixJpnYENy8QS7uRvtK6)
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/wordpress/images-wordpress/Capture1-Ex%C3%A9cution-du-Playbook-Ansible-sur-%60vm-ansible%60.png
 
 ### Capture 2 : Interface WordPress sur Node-001
-![Interface WordPress Node-001](file-CduSBrXMSpyCjmUD3365MY)
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/wordpress/images-wordpress/Capture2%20-Vue%20du%20site-WordPress-sur-%60node-001.png
+
 
 ### Capture 3 : Interface WordPress sur Node-002
-![Interface WordPress Node-002](file-HGayCUtzBCzY67mtErCK8K)
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/wordpress/images-wordpress/Capture-3-Vue-du-site-WordPress-sur-%60node-002%60%20(Connexion)%20.png
+
+### Capture 4 : Tableau-de-bord-WordPress-sur-`node-002
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/wordpress/images-wordpress/Capture4%20-Tableau-de-bord-WordPress-sur-%60node-002%60.png
+
+### Capture 5 : Tableau-de-bord-WordPress-sur-`node-001
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/wordpress/images-wordpress/Capture5-Tableau-de-bord-WordPress-sur-%60node-001.png
 
 ---

@@ -18,8 +18,8 @@ sudo apt update && sudo apt install git -y
 - Configuration des informations utilisateur pour Git :
 
 ```bash
-git config --global user.name "Votre Nom"
-git config --global user.email "votre.email@example.com"
+git config --global user.name " Marwa "
+git config --global user.email "benmansourmarwa4@gmail.com"
 ```
 
 ---

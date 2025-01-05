@@ -106,20 +106,20 @@ git push
 ## 5. Captures d’écran
 
 ### Capture 1 : clone du dépôt Github 
-- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture1-Clone-du-d%C3%A9p%C3%B4t-GitHub.png
+-  https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture1-Clone-du-d%C3%A9p%C3%B4t-GitHub.png
 Description : Commande pour initialiser un dépôt Git local.
 
 ### Capture 2 : Initialisation-du-dépôt-local
-- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture2-Initialisation-du-d%C3%A9p%C3%B4t-local.png
+-  https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture2-Initialisation-du-d%C3%A9p%C3%B4t-local.png
 - Description : Configuration du lien avec le dépôt GitHub distant.
 
 ### Capture 3 : Ajout-et-commit-des-fichiers
-- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture3-Ajout-et-commit-des-fichiers.png
+-  https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture3-Ajout-et-commit-des-fichiers.png
 - Description : Commandes pour ajouter les fichiers et effectuer un premier commit
 
 
 ### Capture 4 : 
-- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture4-Pousser-les-fichiers-vers-GitHub.png
+-  https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture4-Pousser-les-fichiers-vers-GitHub.png
 - Description : Commande pour pousser les fichiers vers le dépôt GitHub.
 
 

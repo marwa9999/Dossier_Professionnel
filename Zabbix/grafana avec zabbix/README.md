@@ -17,8 +17,7 @@ Cette activité détaille l'installation de Grafana et son intégration avec Zab
 ```bash
 hostnamectl set-hostname vm-grafana
 sudo apt update && sudo apt upgrade -y
-
-
-## 3. Résultats
-Connexion réussie entre Grafana et Zabbix.
-Tableaux de bord créés pour surveiller les métriques des systèmes supervisés.
+```
+### Résultats : 
+- Connexion réussie entre Grafana et Zabbix.
+- Tableaux de bord créés pour surveiller les métriques des systèmes supervisés.

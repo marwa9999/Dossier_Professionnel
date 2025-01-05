@@ -137,23 +137,23 @@ sudo ufw reload
 ## 6. Captures d’écran
 
 ### Capture 1 : Tableau de bord global
-![Tableau de bord global](file-LuVAR2pJgMetVxkFYPjgVk)
+
 Description : Vue d’ensemble des métriques clés et des problèmes signalés par Zabbix.
 
 ### Capture 2 : Configuration de l’hôte Node-001
-![Configuration hôte Node-001](file-SiegUJFhhB9t2dbeVtA5zz)
+
 Description : Configuration des paramètres d’hôte pour Node-001 dans l’interface Zabbix.
 
 ### Capture 3 : Déclencheur HTTP indisponible
-![Déclencheur HTTP indisponible](file-9gRZNKBLxRjEU1MLBNozbL)
+
 Description : Déclencheur configuré pour signaler les indisponibilités HTTP.
 
 ### Capture 4 : Liste des hôtes supervisés
-![Liste des hôtes supervisés](file-LjijjvtTroHqLYXyj9aUBC)
+
 Description : Vue des hôtes supervisés dans Zabbix, incluant Docker, Node-001, et VM-Ansible.
 
 ### Capture 5 : Problème résolu sur Docker
-![Problème Docker résolu](file-JhaWXHC2UPGqJWanroHfth)
+
 Description : Notification de résolution d’un problème pour un conteneur Docker.
 
 ---

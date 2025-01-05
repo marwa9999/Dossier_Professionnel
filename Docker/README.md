@@ -134,17 +134,17 @@ services:
 
 - **Odoo** : Accessible à `http://192.168.8.138:8069`
 - **Axelor** : Accessible à `http://192.168.8.138:8080`
-- **Eflyer** : Accessible à `http://192.168.8.138:8081`
+- **Eflyer** : Accessible à `http://:8081`
 
 ---
 
 ## 5. Captures d’écran
 
 ### Capture 1 : Fichier `docker-compose.yml` de Odoo
-
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture1transfert-de-dossier-Eflyer-via-Filezilla.png
 
 ### Capture 2 : Interface utilisateur d'Odoo
-https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture1transfert-de-dossier-Eflyer-via-Filezilla.png?raw=true
+
 
 ### Capture 3 : Fichier `docker-compose.yml` de Axelor
 

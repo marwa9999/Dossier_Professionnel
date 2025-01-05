@@ -105,24 +105,20 @@ git push
 
 ## 5. Captures d’écran
 
-### Capture 1 : Initialisation du dépôt Git local
-
+### Capture 1 : clone du dépôt Github 
+- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture1-Clone-du-d%C3%A9p%C3%B4t-GitHub.png
 Description : Commande pour initialiser un dépôt Git local.
 
-### Capture 2 : Ajout des fichiers et premier commit
-![Ajout des fichiers](file-JhaWXHC2UPGqJWanroHfth)
-Description : Commandes pour ajouter les fichiers et effectuer un premier commit.
+### Capture 2 : Initialisation-du-dépôt-local
+- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture2-Initialisation-du-d%C3%A9p%C3%B4t-local.png
+- Description : Commandes pour ajouter les fichiers et effectuer un premier commit.
 
-### Capture 3 : Configuration du dépôt distant
-![Configuration dépôt distant](file-SiegUJFhhB9t2dbeVtA5zz)
-Description : Configuration du lien avec le dépôt GitHub distant.
+### Capture 3 : Ajout-et-commit-des-fichiers
+- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture3-Ajout-et-commit-des-fichiers.png
+- Description : Configuration du lien avec le dépôt GitHub distant.
 
-### Capture 4 : Poussée des fichiers vers GitHub
-![Poussée vers GitHub](file-Aavw9M1Cx1Y1bEXuamtk7t)
-Description : Commande pour pousser les fichiers vers le dépôt GitHub.
-
-### Capture 5 : Vue du dépôt GitHub
-![Vue dépôt GitHub](file-LjijjvtTroHqLYXyj9aUBC)
-Description : Structure finale des fichiers dans le dépôt GitHub après la poussée.
+### Capture 4 : Pousser-les-fichiers-vers-GitHub
+- *** lien ***: https://github.com/marwa9999/Dossier_Professionnel/blob/main/Github/image-github/Capture4-Pousser-les-fichiers-vers-GitHub.png
+- Description : Commande pour pousser les fichiers vers le dépôt GitHub.
 
 ---

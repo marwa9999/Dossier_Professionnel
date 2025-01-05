@@ -71,29 +71,7 @@ git branch -M main
 git push -u origin main
 ```
 
----
-
-## 3. Structure des fichiers dans le dépôt GitHub
-
-```plaintext
-administrateur-systeme-devops/
-│
-├── docker/
-│   └── README.md
-│
-├── zabbix/
-│   └── README.md
-│
-├── wordpress/
-│   └── README.md
-│
-├── github/
-│   └── README.md
-```
-
----
-
-## 4. Résultats obtenus
+## 3. Résultats obtenus
 
 - Toutes les activités (Zabbix, Docker, WordPress) sont organisées dans des dossiers clairs et structurés.
 - Le dépôt GitHub est accessible et prêt pour le partage ou la collaboration.
@@ -101,7 +79,7 @@ administrateur-systeme-devops/
 
 ---
 
-## 5. Commandes utiles
+## 4. Commandes utiles
 
 - Vérifier l’état des fichiers suivis par Git :
 
@@ -125,7 +103,7 @@ git push
 
 ---
 
-## 6. Captures d’écran
+## 5. Captures d’écran
 
 ### Capture 1 : Initialisation du dépôt Git local
 

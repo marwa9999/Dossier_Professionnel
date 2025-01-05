@@ -144,7 +144,7 @@ services:
 
 
 ### Capture 2 : Interface utilisateur d'Odoo
-https://github.com/marwa9999/Dossier_Professionnel/tree/main/Docker/image-docker#:~:text=..-,Capture1transfert%2Dde%2Ddossier%2DEflyer%2Dvia%2DFilezilla.png,-ajout%20du%20dossier
+https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture1transfert-de-dossier-Eflyer-via-Filezilla.png?raw=true
 
 ### Capture 3 : Fichier `docker-compose.yml` de Axelor
 

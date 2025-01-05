@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  axelor:
+    image: axelor/aio-erp:latest
+    container_name: axelor
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: axelor
+      DB_USER: axelor
+      DB_PASSWORD: axelor
+    volumes:
+      - axelor-data:/var/lib/tomcat/webapps
+      - ./axelor-config:/opt/axelor/config
+
+  db:
+    image: postgres:14
+    container_name: axelor_db
+    environment:
+      POSTGRES_USER: axelor
+      POSTGRES_PASSWORD: axelor
+      POSTGRES_DB: axelor
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  axelor-data:
+  db-data:

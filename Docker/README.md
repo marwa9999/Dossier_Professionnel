@@ -1,132 +1,51 @@
 # Conteneurisation avec Docker
 
 ## Description de l'activité
-
 Cette activité consiste à déployer et gérer des applications conteneurisées à l'aide de Docker et Docker Compose. Trois applications principales ont été conteneurisées : **Odoo**, **Axelor**, et **Eflyer**.
-
-## 1. Installation de Docker et Docker Compose
-
-### Étapes :
-1. Création d'une machine virtuelle sous Ubuntu sur VMware.
-2. Installation de Docker et Docker Compose :
-
-```bash
-sudo apt update
-sudo apt install docker.io docker-compose -y
-sudo systemctl start docker
-sudo systemctl enable docker
-```
-
-3. Vérification des versions installées :
-
-```bash
-docker --version
-docker-compose --version
-```
 
 ---
 
+## 1. Installation de Docker et Docker Compose
+
+Pour configurer Docker et Docker Compose sur une machine virtuelle Ubuntu, suivez les étapes détaillées ici :  
+[Installer Docker et Docker Compose sur Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+
+### Étapes supplémentaires :
+1. Une fois Docker installé, démarrez et activez le service :
+    ```bash
+    sudo systemctl start docker
+    sudo systemctl enable docker
+    ```
+
+2. Vérifiez les versions installées pour confirmer l'installation :
+    ```bash
+    docker --version
+    docker-compose --version
+    ```
 ## 2. Déploiement des applications
 
-### **a. Déploiement de Odoo**
+### a. Déploiement de Odoo
+**Fichier :** `docker-compose/odoo-compose.yml`
 
-**Fichier `docker-compose.yml` :**
-```yaml
-version: '3.1'
+### b. Déploiement de Axelor
+**Fichier :** `docker-compose/axelor-compose.yml`
 
-services:
-  web:
-    image: odoo:17.0
-    depends_on:
-      - mydb
-    ports:
-      - "8069:8069"
-    environment:
-      HOST: mydb
-      USER: odoo
-      PASSWORD: myodoo
-
-  mydb:
-    image: postgres:15
-    environment:
-      POSTGRES_DB: postgres
-      POSTGRES_PASSWORD: myodoo
-      POSTGRES_USER: odoo
-```
-
-### **b. Déploiement de Axelor**
-
-**Fichier `docker-compose.yml` :**
-```yaml
-version: '3.8'
-
-services:
-  axelor:
-    image: axelor/aio-erp:latest
-    container_name: axelor
-    depends_on:
-      - db
-    ports:
-      - "8080:8080"
-    environment:
-      DB_HOST: db
-      DB_PORT: 5432
-      DB_NAME: axelor
-      DB_USER: axelor
-      DB_PASSWORD: axelor
-    volumes:
-      - axelor-data:/var/lib/tomcat/webapps
-      - ./axelor-config:/opt/axelor/config
-
-  db:
-    image: postgres:14
-    container_name: axelor_db
-    environment:
-      POSTGRES_USER: axelor
-      POSTGRES_PASSWORD: axelor
-      POSTGRES_DB: axelor
-    volumes:
-      - db-data:/var/lib/postgresql/data
-
-volumes:
-  axelor-data:
-  db-data:
-```
-
-### **c. Déploiement de Eflyer**
-
-**Fichier `docker-compose.yml` :**
-```yaml
-version: '3.8'
-
-services:
-  nginx:
-    image: nginx:latest
-    volumes:
-      - ./:/usr/share/nginx/html
-    ports:
-      - "8081:80"
-```
+### c. Déploiement de Eflyer
+**Fichier :** `docker-compose/eflyer-compose.yml`
 
 ---
 
 ## 3. Gestion des conteneurs
 
-### Commandes principales :
 - Lancer les conteneurs :
-  ```bash
-  docker-compose up -d
-  ```
-
-- Vérifier les conteneurs en cours d'exécution :
-  ```bash
-  docker ps
-  ```
+    ```bash
+    bash scripts/manage_containers.sh up
+    ```
 
 - Arrêter les conteneurs :
-  ```bash
-  docker-compose down
-  ```
+    ```bash
+    bash scripts/manage_containers.sh down
+    ```
 
 ---
 
@@ -134,31 +53,33 @@ services:
 
 - **Odoo** : Accessible à `http://192.168.8.138:8069`
 - **Axelor** : Accessible à `http://192.168.8.138:8080`
-- **Eflyer** : Accessible à `http://:8081`
+- **Eflyer** : Accessible à `http://192.168.8.138:8081`
 
 ---
 
 ## 5. Captures d’écran
 
-### Capture 1 : Fichier `docker-compose.yml` de Odoo
+
+### Capture 1 : transfert des fichiers via Filezilla
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture1transfert-de-dossier-Eflyer-via-Filezilla.png
 
-### Capture 2 : Interface utilisateur d'Odoo
+### Capture 2 : Fichier `docker-compose.yml` Eflyer
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture2-Configuration-Docker-Compose-pour%20eFlyer%20.png
 
-### Capture 3 : Fichier `docker-compose.yml` de Axelor
+### Capture 3 : Interface Eflyer déployé
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture3-Site-eFlyer-d%C3%A9ploy%C3%A9.png
 
-### Capture 4 : Interface utilisateur de Axelor
+### Capture 4 : Fichier `docker-compose.yml` de Eflyer
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture4%20-Configuration-Docker-Compose-pour-Axelor.png
 
-### Capture 5 : Fichier `docker-compose.yml` de Eflyer
+### Capture 5 : Interface Axelor déployé
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture5-Site-Axelor-d%C3%A9ploy%C3%A9.png
 
-### Capture 6 : Interface utilisateur de Eflyer
+### Capture 6 : Fichier `docker-compose.yml` d'odoo
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture6-Configuration-Docker-Compose-pour-Odoo.png
 
 ### Capture 7 : Interface Odoo déployée
 https://github.com/marwa9999/Dossier_Professionnel/blob/main/Docker/image-docker/Capture7-Interface-Odoo-d%C3%A9ploy%C3%A9e.png
 
 ---
+

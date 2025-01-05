@@ -9,10 +9,10 @@ Cette activité détaille l'installation et la configuration de Grafana pour vis
 ## 1. Prérequis
 
 - Une machine virtuelle configurée pour Grafana :
-  - **Nom de la VM** : `vm-grafana`
+  - **Nom de la VM** : `Grafana`
   - **Adresse IP** : `192.168.8.137`
 - Zabbix Server déjà configuré et fonctionnel.
-- Accès SSH à la VM `vm-grafana`.
+- Accès SSH à la VM `Grafana`.
 
 ---
 
@@ -21,7 +21,7 @@ Cette activité détaille l'installation et la configuration de Grafana pour vis
 ### a. Création de la machine virtuelle
 
 1. **Création de la VM dans VMware** :
-   - Attribuer 2 CPU, 2 Go de RAM et 20 Go de disque dur.
+   - Attribuer 2 CPU, 4 Go de RAM et 20 Go de disque dur.
    - Installer Ubuntu 22.04 sur la VM.
 
 2. **Configuration de la VM** :

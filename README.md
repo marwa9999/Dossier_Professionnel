@@ -43,12 +43,8 @@ Ce dépôt regroupe les activités réalisées dans le cadre de mon dossier prof
     git commit -m "Initial commit - Ajout des activités"
     ```
 
-4. Lier le dépôt à GitHub :
-    ```bash
-    git remote add origin <url_du_dépôt>
-    ```
 
-5. Pousser le contenu :
+4. Pousser le contenu :
     ```bash
     git branch -M main
     git push -u origin main

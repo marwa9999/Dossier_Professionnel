@@ -16,8 +16,8 @@ Ce dépôt regroupe les activités réalisées dans le cadre de mon dossier prof
    
 
 3. **Zabbix** : 
-#### Exemple 1 : Supervision des systèmes avec Zabbix   
-#### Exemple 2 : Intégration de Zabbix avec Grafana
+   - **Exemple 1** : Supervision des systèmes avec Zabbix.
+   - **Exemple 2** : Intégration de Zabbix avec Grafana pour visualiser des métriques avancées.
 
 4. **GitHub** : Gestion et partage du projet via GitHub.
    

@@ -15,13 +15,11 @@ Ce dépôt regroupe les activités réalisées dans le cadre de mon dossier prof
 2. **WordPress** : Automatisation du déploiement avec Ansible.
    
 
-3. **Zabbix** : Supervision des systèmes avec Zabbix.
+3. **Zabbix** : - Exemple 1 : Supervision des systèmes avec Zabbix.
+                - Intégration de Zabbix avec Grafana pour la visualisation des métriques.
    
 
-4. **Grafana** : Intégration de Zabbix avec Grafana pour la visualisation des métriques.
-   
-
-5. **GitHub** : Gestion et partage du projet via GitHub.
+4. **GitHub** : Gestion et partage du projet via GitHub.
    
 
 ---

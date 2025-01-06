@@ -22,6 +22,7 @@ https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.
   - **node-001** : 192.168.8.131
   - **node-002** : 192.168.8.135
   - **Docker** : 192.168.8.138
+  - **Docker** : 192.168.8.136
 
 ---
 

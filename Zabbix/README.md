@@ -2,7 +2,7 @@
 
 ## Description de l'activité
 
-Cette activité consiste à configurer Zabbix pour la supervision des systèmes et services sur plusieurs machines virtuelles, y compris `vm-ansible`, `node-001`, `node-002`, et Docker.
+Cette activité consiste à configurer Zabbix pour la supervision des systèmes et services sur plusieurs machines virtuelles, y compris `zabbix`, `vm-ansible`, `node-001`, `node-002`, et Docker.
 
 ---
 
